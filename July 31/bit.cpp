@@ -6,7 +6,6 @@ int setNthBitOne(int num, int n) {
    	int result = num | checkbit;
    	return result;
 }
-
 int getNthBit(int num, int n) {
 	int checkbit = 1 << n;
 	int result = num & checkbit;
